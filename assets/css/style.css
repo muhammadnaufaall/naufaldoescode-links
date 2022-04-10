@@ -1,0 +1,106 @@
+/* Style Settings */
+
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700&display=swap");
+:root {
+  --font: "Karla", "Karla", sans-serif;
+}
+
+body {
+  background-color: #162a4b;
+}
+
+#userPhoto {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 35px auto 20px;
+  border-radius: 50%;
+  border: 5px solid #fefefe;
+  transition: all 400ms ease-in-out;
+  cursor: pointer;
+}
+
+#userPhoto:hover {
+  border: 5px solid #f9eb42;
+}
+
+#userName {
+  color: #fefefe;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.25;
+  display: block;
+  font-family: var(--font);
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+
+#links {
+  max-width: 675px;
+  width: auto;
+  display: block;
+  margin: 27px auto;
+}
+
+.link {
+  display: block;
+  background-color: #f9eb42;
+  color: #162a4b;
+  font-family: var(--font);
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 17px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: all 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99);
+  border: solid var(--accentColor) 2px;
+  transition: all 400ms ease-in-out;
+}
+
+.link:hover {
+  background-color: #fff;
+  color: #162a4b;
+  border: solid #f9eb42 2px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.circulo {
+  background: rgb(221, 221, 221);
+  border-radius: 52px;
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  font-size: 10px;
+  color: #162a4b;
+  transition: all 400ms ease-in-out;
+}
+
+.circulo:hover {
+  background: #f9eb42;
+  color: #162a4b;
+  -webkit-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
+  -moz-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
+  box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
+}
+
+.night_mode {
+  position: fixed;
+  top: 25px;
+  right: 30px;
+  z-index: 10000000;
+  color: #fefefe;
+}
+
+.night_mode:hover {
+  cursor: pointer;
+}
